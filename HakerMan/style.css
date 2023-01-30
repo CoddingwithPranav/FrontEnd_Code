@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+
+}
+#div{
+font-size: 50px;
+  color: rgb(0, 255, 0);  
+  text-shadow: green 1px 1px 10px;
+}
+
+/* color | offset-x | offset-y | blur-radius */
+/* text-shadow: #fc0 1px 0 10px; */
+.div2{
+    position: absolute;
+    right: 30px;
+    font-size: 25px;
+    color: red;
+}
+.input_css{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(255, 0, 0);
+    color: white;
+    font-size: 27px;
+}
