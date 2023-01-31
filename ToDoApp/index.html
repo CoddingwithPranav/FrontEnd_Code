@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="nav">
+        <span>Note</span>
+        <div id="toggle">
+            <input type="checkbox"  id="dark-mode" class="input">
+            <label for="dark-mode" class="label">
+                <div class="circle"></div>
+            </label>
+            <div id="search">
+                 <input type="text" id="search" placeholder="search">
+            </div>
+        
+        </div>
+    </nav>
+    <form action="">
+        <div class="note_conatiner">
+            <h1>Write note here</h1>
+            <input type="text" name="note" id="note" placeholder="Note...." type="button">
+            <button id="btn" type="submit">Save</button>
+            <div id="notes_written">
+                
+            </div>
+        </div>
+        
+    </form>
+    <button id="clear">Clear ALL</button>
+    <script src="script.js"></script>
+</body>
+</html>
